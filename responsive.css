@@ -1,0 +1,119 @@
+@media screen and (max-width:800px) {
+    .class-1 {
+        width: 60%;    
+    }
+    .class-1 h1 {
+        font-size: 2rem;
+    }
+    .class-2 {
+        width: 40%;
+    } 
+    .shop-section {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .box-content {
+        line-height: 1.2;
+    }
+    .box-content > p {
+        font-size: 0.75rem;
+        margin-top: 25px;
+    }
+    
+    .box-content > h3 {
+        font-size: 0.8rem;
+        font-weight: 900;
+    }
+    
+    .box-content > span {
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-bottom: 25px;
+
+    }
+
+    button {
+        margin-top: -20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        display: flex;
+        padding: 4px 10px;
+        font-size: 0.75rem;
+        align-items: center;
+        background-color: #fff;
+        cursor: pointer;
+        gap: 2px;
+    }
+    .class-2 h3 {
+        font-size: 1.1rem;
+    }
+    .class-2 p {
+        font-size: 0.65rem;;
+    }    
+}
+
+@media screen and (max-width:570px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .class-1 {
+        width: 100%;    
+    }
+    .class-1 h1 {
+        font-size: 2rem;
+    }
+    .class-2 {
+        width: 100%;
+    } 
+    .showing {
+        display: block;
+        }
+    
+        .hide-img {
+            display: none;
+        }
+    
+}
+
+
+@media screen and (max-width:426px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .shop-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .class-1 {
+        width: 100%;    
+    }
+    .class-1 h1 {
+        font-size: 2rem;
+    }
+    .class-2 {
+        width: 100%;
+    } 
+    button {
+        margin-top: -20px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        display: flex;
+        padding: 5px 20px;
+        font-size: 0.7rem;
+        align-items: center;
+        background-color: #fff;
+        cursor: pointer;
+        gap: 2px;
+    }
+
+    .class-2 h3 {
+        font-size: 1.3rem;
+    }
+    
+    .class-2 p {
+        font-size: 0.85rem;
+    }
+
+}
