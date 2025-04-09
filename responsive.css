@@ -32,17 +32,8 @@
 
     }
 
-    button {
-        margin-top: -20px;
-        box-sizing: border-box;
-        border-radius: 50px;
-        display: flex;
+    .add-btn {
         padding: 4px 10px;
-        font-size: 0.75rem;
-        align-items: center;
-        background-color: #fff;
-        cursor: pointer;
-        gap: 2px;
     }
     .class-2 h3 {
         font-size: 1.1rem;
@@ -95,17 +86,10 @@
     .class-2 {
         width: 100%;
     } 
-    button {
-        margin-top: -20px;
-        box-sizing: border-box;
-        border-radius: 50px;
-        display: flex;
+    .add-btn {
         padding: 5px 20px;
         font-size: 0.7rem;
-        align-items: center;
-        background-color: #fff;
-        cursor: pointer;
-        gap: 2px;
+        
     }
 
     .class-2 h3 {
