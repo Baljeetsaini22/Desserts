@@ -115,10 +115,12 @@ button {
   gap: 2px;
     
 }
-.remove-btn, .order-btn {
+.order-btn {
   background-color: #f44336;
   color: #fff;
-  }
+  font-size: 1.2rem;
+  padding: 10px 20px;
+}
   
 img.btnImg {
   width: 25%;
