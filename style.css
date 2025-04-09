@@ -1,129 +1,148 @@
 * {
-  margin: 0 auto;
-  padding: 0;
-  background-color: hsl(13, 31%, 94%);
-}
-.container {
-  margin: 50px 0;
-}
-.content {
-  display: flex;
-  width: 85%;
-  height: auto;
-  column-gap: 20px;
-}
-
-.class-1 {
-  width: 70%;
-}
-
-.class-1 h1 {
-  font-size: 2.5rem;
-}
-
-.class-2 {
-  width: 30%;
-  height: 100%;
-  box-sizing: border-box;
-  border: 2px solid #fff;
-  background-color: #fff;
-  padding: 20px;
-}
-
-.shop-section {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 20px;
-  row-gap: 20px;
-}
-
-.box {
-  height: auto;
-  width: 100%;
-  margin: 20px 0;
-}
-
-.box-content {
-  line-height: 1.5;
-}
-
-.box-content > p {
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-top: 30px;
-  color: hsl(14, 25%, 72%);
-}
-
-.box-content > h3 {
-  font-size: 0.85rem;
-  font-weight: 900;
-}
-
-.box-content > span {
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: hsl(14, 86%, 42%);
-}
-
-.box-flex {
-  display: inline-grid;
-  grid-template-columns: auto;
-}
-
-.box-flex img {
-  width: 100%;
-  height: auto;
-  box-sizing: border-box;
-  border-radius: 10px;
-}
-
-.showing {
-    display: none;
-}
-
-button {
-    margin-top: -20px;
-    box-sizing: border-box;
-    border-radius: 50px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: hsl(13, 31%, 94%);
+  }
+  .container {
+    margin: 50px 0;
+  }
+  .content {
     display: flex;
-    padding: 5px 15px;
-    font-size: 0.75rem;
-    align-items: center;
+    width: 85%;
+    height: auto;
+    column-gap: 20px;
+  }
+  
+  .class-1 {
+    width: 70%;
+  }
+  
+  .class-1 h1 {
+    font-size: 2.5rem;
+  }
+  
+  .class-2 {
+    width: 30%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 2px solid #fff;
     background-color: #fff;
-    cursor: pointer;
-    gap: 2px;
-}
-
-img.btnImg {
-  width: 25%;
-  background-color: #fff;
-}
-
-.class-2 h3 {
-  font-size: 1.3rem;
-  color: hsl(14, 86%, 42%);
-  background-color: #fff;
-}
-
-.cart-img {
-  background-color: #fff;
-}
-
-.cart-img img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  height: auto;
-  margin-top: 40px;
-  background-color: #fff;
-}
-
-.class-2 p {
-    text-align: center;
-    font-size: 0.7rem;
+    padding: 20px;
+  }
+  
+  .shop-section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  
+  .box {
+    height: auto;
+    width: 100%;
     margin: 20px 0;
+  }
+  
+  .box-content {
+    line-height: 1.5;
+  }
+  
+  .box-content > p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-top: 30px;
     color: hsl(14, 25%, 72%);
+  }
+  
+  .box-content > h3 {
+    font-size: 0.85rem;
+    font-weight: 900;
+  }
+  
+  .box-content > span {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: hsl(14, 86%, 42%);
+  }
+  
+  .box-flex {
+    display: inline-grid;
+    grid-template-columns: auto;
+  }
+  
+  .box-flex img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  
+  .showing {
+      display: none;
+  }
+  .cart {
+    margin: 20px 0;
+  }
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  button {
+      margin-top: -20px;
+      box-sizing: border-box;
+      border: none;
+      border-radius: 50px;
+      display: flex;
+      padding: 5px 15px;
+      font-size: 0.75rem;
+      align-items: center;
+      background-color: #fff;
+      cursor: pointer;
+      gap: 2px;
+      
+  }
+  .remove-btn {
+    background-color: #f44336;
+  }
+  
+  img.btnImg {
+    width: 25%;
     background-color: #fff;
-}
+  }
+  
+  .class-2 h3 {
+    font-size: 1.3rem;
+    color: hsl(14, 86%, 42%);
+    background-color: #fff;
+  }
+  
+  .cart-img {
+    background-color: #fff;
+  }
+  
+  .cart-img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-top: 40px;
+    background-color: #fff;
+  }
+  
+  .class-2 p {
+      text-align: center;
+      font-size: 0.7rem;
+      margin: 20px 0;
+      color: hsl(14, 25%, 72%);
+      background-color: #fff;
+  }
+  .total {
+    font-weight: bold;
+    margin-top: 10px;
+  }
